@@ -8,6 +8,8 @@ Jupyter, with explanations in Spanish.
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 
+![Gradient descent on a convex and a non-convex function (notebook AG2)](docs/gradient-descent.png)
+
 ## Algoritmos de Optimización (Optimization Algorithms)
 
 | Notebook | Topic |
