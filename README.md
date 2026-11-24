@@ -1,8 +1,8 @@
 # Master's in Artificial Intelligence — Coursework (VIU) 🤖
 
-Selected coursework from my **Master's Degree in Artificial Intelligence** at
-Universidad Internacional de Valencia (2024–2025). Notebooks are written in Python and
-Jupyter, with explanations in Spanish.
+Selected coursework from my **Master's Degree in Artificial Intelligence** at Universidad Internacional de Valencia
+(2024–2025): classic algorithm design, dynamic programming, metaheuristics and complexity analysis, implemented in
+Python notebooks (explanations in Spanish).
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
@@ -10,17 +10,30 @@ Jupyter, with explanations in Spanish.
 
 ![Gradient descent on a convex and a non-convex function (notebook AG2)](docs/gradient-descent.png)
 
-## Algoritmos de Optimización (Optimization Algorithms)
+## Highlights
+
+![Tour length by method on a 42-city TSP instance, and expressions evaluated with branch and bound](docs/results.png)
+
+- **Closest pair of points:** brute force in $O(n^2)$ vs. divide and conquer in $O(n \log n)$, extended from 1D to
+  2D and 3D.
+- **Travelling salesman (42 cities):** random search over 10,000 tours reaches 3,698; local search improves it to
+  **1,774** in 35 iterations; simulated annealing is also implemented and compared.
+- **Branch and bound:** to build an expression with five digits and four operators that hits a target, pruning
+  evaluates **1,767** candidates out of a 70,560-expression search space.
+- Also: Tower of Hanoi, N-Queens backtracking, greedy coin change, a river-trip pricing problem solved with dynamic
+  programming, task assignment and gradient descent.
+
+## Optimization Algorithms
 
 | Notebook | Topic |
 |---|---|
-| [`Oscar_Cuenca_AG1.ipynb`](Algoritmos_Optimizacion/Oscar_Cuenca_AG1.ipynb) | Closest pair of points: brute force vs. divide and conquer, with complexity analysis |
+| [`Oscar_Cuenca_AG1.ipynb`](Algoritmos_Optimizacion/Oscar_Cuenca_AG1.ipynb) | Recursion, greedy and backtracking (Hanoi, coin change, N-Queens), dynamic programming and the closest pair of points |
 | [`Oscar_Cuenca_AG2.ipynb`](Algoritmos_Optimizacion/Oscar_Cuenca_AG2.ipynb) | Dynamic programming (river trip), task assignment problem and gradient descent |
-| [`Oscar_Cuenca_AG3.ipynb`](Algoritmos_Optimizacion/Oscar_Cuenca_AG3.ipynb) | Metaheuristics: random search, local search and simulated annealing |
-| [`OscarCuencaMoreno_Seminario.ipynb`](Algoritmos_Optimizacion/OscarCuencaMoreno_Seminario.ipynb) | Programming project: combining digits and operations — reachable min/max values and full coverage of the integer range |
+| [`Oscar_Cuenca_AG3.ipynb`](Algoritmos_Optimizacion/Oscar_Cuenca_AG3.ipynb) | Metaheuristics on the TSP: random search, local search and simulated annealing |
+| [`OscarCuencaMoreno_Seminario.ipynb`](Algoritmos_Optimizacion/OscarCuencaMoreno_Seminario.ipynb) | Seminar project: digits and operators — reachable values, brute force vs. branch and bound, complexity |
 | [`Articulo_Cientifico_AO_VIU_New.pdf`](Algoritmos_Optimizacion/Articulo_Cientifico_AO_VIU_New.pdf) | Scientific article written for the course |
 
-## Herramientas de Programación (Programming Tools)
+## Programming Tools
 
 | Notebook | Topic |
 |---|---|
