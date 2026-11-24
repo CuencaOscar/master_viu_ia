@@ -1,8 +1,12 @@
-# Master's in Artificial Intelligence — Coursework (VIU)
+# Master's in Artificial Intelligence — Coursework (VIU) 🤖
 
 Selected coursework from my **Master's Degree in Artificial Intelligence** at
 Universidad Internacional de Valencia (2024–2025). Notebooks are written in Python and
 Jupyter, with explanations in Spanish.
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
 
 ## Algoritmos de Optimización (Optimization Algorithms)
 
@@ -32,5 +36,7 @@ jupyter notebook
 
 - Master's thesis: *Banana Leaf Disease Detection Using CNNs Through a Mobile App* —
   mobile client in [BananaGuard](https://github.com/CuencaOscar/BananaGuard).
+
+---
 
 **Oscar Cuenca** · [LinkedIn](https://www.linkedin.com/in/ocuenca-moreno/)
