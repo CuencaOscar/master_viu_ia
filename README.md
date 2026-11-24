@@ -39,6 +39,8 @@ jupyter notebook
 - Master's thesis: *Banana Leaf Disease Detection Using CNNs Through a Mobile App* —
   mobile client in [BananaGuard](https://github.com/CuencaOscar/BananaGuard).
 
----
+## License
 
-**Oscar Cuenca** · [LinkedIn](https://www.linkedin.com/in/ocuenca-moreno/)
+The code and notebooks are MIT-licensed. The heart-disease dataset and course materials belong to their respective authors.
+
+[MIT](LICENSE) © Oscar Cuenca · [LinkedIn](https://www.linkedin.com/in/ocuenca-moreno/)
